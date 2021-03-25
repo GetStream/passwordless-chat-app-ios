@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8026AEE725FFCDB000533EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026AEE625FFCDB000533EA7 /* AppDelegate.swift */; };
+		8026AEE925FFCDB000533EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026AEE825FFCDB000533EA7 /* SceneDelegate.swift */; };
+		8026AEEB25FFCDB000533EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026AEEA25FFCDB000533EA7 /* ViewController.swift */; };
+		8026AEEE25FFCDB000533EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8026AEEC25FFCDB000533EA7 /* Main.storyboard */; };
+		8026AEF025FFCDB200533EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8026AEEF25FFCDB200533EA7 /* Assets.xcassets */; };
+		8026AEF325FFCDB200533EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8026AEF125FFCDB200533EA7 /* LaunchScreen.storyboard */; };
+		8026AEFD25FFCE4800533EA7 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8026AEFC25FFCE4800533EA7 /* StreamChatUI */; };
+		8026AEFF25FFCE4800533EA7 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 8026AEFE25FFCE4800533EA7 /* StreamChat */; };
+		8026AF0725FFD01500533EA7 /* Client+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026AF0625FFD01500533EA7 /* Client+Shared.swift */; };
+		8026AF1025FFDCCD00533EA7 /* Lock in Frameworks */ = {isa = PBXBuildFile; productRef = 8026AF0F25FFDCCD00533EA7 /* Lock */; };
+		80C6E3A526012E2000BA5B65 /* fetchStreamJWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C6E3A426012E2000BA5B65 /* fetchStreamJWT.swift */; };
+		80C6E3A92601335600BA5B65 /* makeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C6E3A82601335600BA5B65 /* makeChat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8026AEE325FFCDB000533EA7 /* NoPwdChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoPwdChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8026AEE625FFCDB000533EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8026AEE825FFCDB000533EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8026AEEA25FFCDB000533EA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8026AEED25FFCDB000533EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8026AEEF25FFCDB200533EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8026AEF225FFCDB200533EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8026AEF425FFCDB200533EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8026AF0625FFD01500533EA7 /* Client+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+Shared.swift"; sourceTree = "<group>"; };
+		80C6E3A426012E2000BA5B65 /* fetchStreamJWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchStreamJWT.swift; sourceTree = "<group>"; };
+		80C6E3A82601335600BA5B65 /* makeChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeChat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8026AEE025FFCDB000533EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8026AEFF25FFCE4800533EA7 /* StreamChat in Frameworks */,
+				8026AEFD25FFCE4800533EA7 /* StreamChatUI in Frameworks */,
+				8026AF1025FFDCCD00533EA7 /* Lock in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8026AEDA25FFCDB000533EA7 = {
+			isa = PBXGroup;
+			children = (
+				8026AEE525FFCDB000533EA7 /* NoPwdChat */,
+				8026AEE425FFCDB000533EA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8026AEE425FFCDB000533EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8026AEE325FFCDB000533EA7 /* NoPwdChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8026AEE525FFCDB000533EA7 /* NoPwdChat */ = {
+			isa = PBXGroup;
+			children = (
+				80C6E3A326012E0B00BA5B65 /* Functions */,
+				8026AF0525FFD00500533EA7 /* Extensions */,
+				8026AEE625FFCDB000533EA7 /* AppDelegate.swift */,
+				8026AEE825FFCDB000533EA7 /* SceneDelegate.swift */,
+				8026AEEA25FFCDB000533EA7 /* ViewController.swift */,
+				8026AEEC25FFCDB000533EA7 /* Main.storyboard */,
+				8026AEEF25FFCDB200533EA7 /* Assets.xcassets */,
+				8026AEF125FFCDB200533EA7 /* LaunchScreen.storyboard */,
+				8026AEF425FFCDB200533EA7 /* Info.plist */,
+			);
+			path = NoPwdChat;
+			sourceTree = "<group>";
+		};
+		8026AF0525FFD00500533EA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8026AF0625FFD01500533EA7 /* Client+Shared.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80C6E3A326012E0B00BA5B65 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				80C6E3A426012E2000BA5B65 /* fetchStreamJWT.swift */,
+				80C6E3A82601335600BA5B65 /* makeChat.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8026AEE225FFCDB000533EA7 /* NoPwdChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8026AEF725FFCDB200533EA7 /* Build configuration list for PBXNativeTarget "NoPwdChat" */;
+			buildPhases = (
+				8026AEDF25FFCDB000533EA7 /* Sources */,
+				8026AEE025FFCDB000533EA7 /* Frameworks */,
+				8026AEE125FFCDB000533EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoPwdChat;
+			packageProductDependencies = (
+				8026AEFC25FFCE4800533EA7 /* StreamChatUI */,
+				8026AEFE25FFCE4800533EA7 /* StreamChat */,
+				8026AF0F25FFDCCD00533EA7 /* Lock */,
+			);
+			productName = NoPwdChat;
+			productReference = 8026AEE325FFCDB000533EA7 /* NoPwdChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8026AEDB25FFCDB000533EA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8026AEE225FFCDB000533EA7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8026AEDE25FFCDB000533EA7 /* Build configuration list for PBXProject "NoPwdChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8026AEDA25FFCDB000533EA7;
+			packageReferences = (
+				8026AEFB25FFCE4800533EA7 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				8026AF0E25FFDCCD00533EA7 /* XCRemoteSwiftPackageReference "Lock" */,
+			);
+			productRefGroup = 8026AEE425FFCDB000533EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8026AEE225FFCDB000533EA7 /* NoPwdChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8026AEE125FFCDB000533EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8026AEF325FFCDB200533EA7 /* LaunchScreen.storyboard in Resources */,
+				8026AEF025FFCDB200533EA7 /* Assets.xcassets in Resources */,
+				8026AEEE25FFCDB000533EA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8026AEDF25FFCDB000533EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C6E3A526012E2000BA5B65 /* fetchStreamJWT.swift in Sources */,
+				8026AEEB25FFCDB000533EA7 /* ViewController.swift in Sources */,
+				8026AEE725FFCDB000533EA7 /* AppDelegate.swift in Sources */,
+				8026AEE925FFCDB000533EA7 /* SceneDelegate.swift in Sources */,
+				8026AF0725FFD01500533EA7 /* Client+Shared.swift in Sources */,
+				80C6E3A92601335600BA5B65 /* makeChat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8026AEEC25FFCDB000533EA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8026AEED25FFCDB000533EA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8026AEF125FFCDB200533EA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8026AEF225FFCDB200533EA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8026AEF525FFCDB200533EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8026AEF625FFCDB200533EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8026AEF825FFCDB200533EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EHV7XZLAHA;
+				INFOPLIST_FILE = NoPwdChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.NoPwdChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8026AEF925FFCDB200533EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EHV7XZLAHA;
+				INFOPLIST_FILE = NoPwdChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.NoPwdChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8026AEDE25FFCDB000533EA7 /* Build configuration list for PBXProject "NoPwdChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8026AEF525FFCDB200533EA7 /* Debug */,
+				8026AEF625FFCDB200533EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8026AEF725FFCDB200533EA7 /* Build configuration list for PBXNativeTarget "NoPwdChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8026AEF825FFCDB200533EA7 /* Debug */,
+				8026AEF925FFCDB200533EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8026AEFB25FFCE4800533EA7 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		8026AF0E25FFDCCD00533EA7 /* XCRemoteSwiftPackageReference "Lock" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Lock.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.22.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8026AEFC25FFCE4800533EA7 /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8026AEFB25FFCE4800533EA7 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+		8026AEFE25FFCE4800533EA7 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8026AEFB25FFCE4800533EA7 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		8026AF0F25FFDCCD00533EA7 /* Lock */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8026AF0E25FFDCCD00533EA7 /* XCRemoteSwiftPackageReference "Lock" */;
+			productName = Lock;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8026AEDB25FFCDB000533EA7 /* Project object */;
+}

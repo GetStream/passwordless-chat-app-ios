@@ -1,0 +1,15 @@
+{
+  "name": "passwordless-chat-swift-backend",
+  "version": "1.0.0",
+  "description": "A backend for a passwordless chat application with Stream and Auth0",
+  "main": "index.js",
+  "repository": "https://github.com/getstream/passwordless-chat-swift",
+  "author": "matheus@getstream.io",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "stream-chat": "^3.6.1"
+  }
+}
