@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        Lock.passwordless(clientId: "1HBJhBfsj1cbypHlSU85L4Ve2YD2RrMh", domain: "dev-fhjteaie.us.auth0.com")
+        Lock.passwordless(clientId: "[your_auth0_client_id]", domain: "[your_auth0_domain]")
             .withOptions { $0.oidcConformant = true }
             .withConnections { $0.email(name: "email") }
             .withStyle { $0.title = "Passwordless Chat" }
