@@ -1,3 +1,5 @@
+> **This repository is archived and will be deleted.** It is no longer maintained. For a current alternative, see [the Stream Chat tokens and authentication docs](https://getstream.io/chat/docs/ios-swift/tokens-and-authentication/).
+
 # 🔐💬 iOS Passwordless Chat with Auth0 and Stream  [![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2Fpasswordless-chat-app-ios)](https://twitter.com/intent/tweet?text=Want%20to%20build%20a%20passwordless%20chat%20app%20for%20iOS%3F%20Learn%20how%3A&url=https%3A%2F%2Fgithub.com%2FGetStream%2Fpasswordless-chat-app-ios)
 
 <img align="right" src="https://i.imgur.com/KlgppiG.png" width="40%" />
